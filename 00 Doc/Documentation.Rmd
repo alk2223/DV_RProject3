@@ -1,0 +1,36 @@
+
+
+---
+Batting Statistics Visualization
+===
+
+In this document, I will explain the steps taken to create a graphical visualization of batting statistics from 2010-2015.
+
+
+###Graph 1
+
+The first graph is a visualization of all the all star players from 2010. This graph compares their hits and at bats for the season. There is a large discrepancy in the graph between the worst batters and best batters. This is due to the pitchers being poor batters compared to other positions.
+
+```{r}
+source("../02 Data Wrangling/batting + allstar.r", echo = TRUE)
+```
+
+
+
+###Graph 2
+
+The second graph is a visualization of all professional players and their salaries from 2010. The data is distinguished by whether they made the all-star game (1) or not(0) as well as by their position. 
+
+```{r}
+source("../02 Data Wrangling/salary + allstar.R", echo = TRUE)
+```
+
+
+###Graph 3
+
+The third graph is a visualization of all the professional players from 2010 and their salaries. 
+salary by top three home run hitters during the greatest hitting span in baseball history.
+
+```{r}
+source("../02 Data Wrangling/salary + batting.R", echo = TRUE)
+```
