@@ -28,7 +28,7 @@ source("../02 Data Wrangling/salary + allstar.R", echo = TRUE)
 
 ###Graph 3
 
-This graph compares the best offensive and defensive catchers in 2010. The x-axis corresponds to runners the cather has thrown out trying to steal. While the y-axis shows HR. This graph shows which catchers excel offensively, defensively and both
+This graph compares the best offensive and defensive catchers in 2010. The x-axis corresponds to runners the cather has thrown out trying to steal. While the y-axis shows HR. This graph shows which catchers excel offensively, defensively and boths
 
 ```{r}
 source("../02 Data Wrangling/salary + batting.R", echo = TRUE)
