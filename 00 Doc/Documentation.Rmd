@@ -12,14 +12,14 @@ In this document, I will explain the steps taken to create a graphical visualiza
 The first graph is a visualization of all the all star players from 2010. This graph compares their hits and at bats for the season. There is a large discrepancy in the graph between the worst batters and best batters. This is due to the pitchers being poor batters compared to other positions.
 
 ```{r}
-source("../02 Data Wrangling/batting + allstar.r", echo = TRUE)
+source("../02 Data Wrangling/batting + allstar.R", echo = TRUE)
 ```
 
 
 
 ###Graph 2
 
-The second graph is a visualization of all professional players and their salaries from 2010. The data is distinguished by whether they made the all-star game (1) or not(0) as well as by their position. 
+The second graph is a visualization of all professional players and their salaries from 2010. The data is distinguished by whether they made the all-star game (colored key by position: 10 (pitcher), 2 (catcher), 3 (first baseman), 4 (second baseman), 5 (third baseman), 6 (shortstop), 7 (left fielder), 8 (center fielder), and 9 (right fielder)) or not(gray points). This visualization shows how salary is affected by position.
 
 ```{r}
 source("../02 Data Wrangling/salary + allstar.R", echo = TRUE)
