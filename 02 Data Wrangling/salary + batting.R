@@ -20,8 +20,8 @@ salbat <- dplyr::inner_join(catch, batting, by="PLAYERID")
 require("jsonlite")
 require("RCurl")
 
-summary(dfb)
-head(dfb)
+summary(salbat)
+head(salbat)
 
 require(ggplot2)
 require(extrafont)

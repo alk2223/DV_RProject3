@@ -28,8 +28,7 @@ source("../02 Data Wrangling/salary + allstar.R", echo = TRUE)
 
 ###Graph 3
 
-The third graph is a visualization of all the professional players from 2010 and their salaries. 
-salary by top three home run hitters during the greatest hitting span in baseball history.
+This graph compares the best offensive and defensive catchers in 2010. The x-axis corresponds to runners the cather has thrown out trying to steal. While the y-axis shows HR. This graph shows which catchers excel offensively, defensively and both
 
 ```{r}
 source("../02 Data Wrangling/salary + batting.R", echo = TRUE)
